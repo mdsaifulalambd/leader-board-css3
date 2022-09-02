@@ -1,0 +1,43 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 870px;
+}
+
+
+
+
+/* Top Players Style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section-title {
+    color: blue;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
