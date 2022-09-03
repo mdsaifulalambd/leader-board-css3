@@ -16,6 +16,9 @@ main {
 .container {
     background-color: #ffffff;
     width: 870px;
+    height: 679px;
+    padding: 30px 30px;
+    margin-top: 30px;
 }
 
 
@@ -28,16 +31,25 @@ main {
 }
 
 .section-title {
-    color: blue;
+    color: #562EFF;
+    font-size: 24px;
+    line-height: 36px;
+
 }
 
 .player {
     display: flex;
     align-items: center;
+    font-size: 18px;
+    line-height: 27px;
 
 }
 
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
 }
